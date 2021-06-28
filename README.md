@@ -1,5 +1,5 @@
 <center>
-<a href="https://github.com/d4az/"><img src="https://img.shields.io/github/followers/d4az?style=social"> </a> 
+<a href="https://github.com/dasithsv/"><img src="https://img.shields.io/github/followers/dasithsv?style=social"> </a> 
 <a href="https://github.com/d4az/"><img src="https://img.shields.io/github/stars/d4az/School-Management-System?style=social"> </a> 
 <a href="https://github.com/d4az/"><img src="https://img.shields.io/github/forks/d4az/School-Management-System?style=social"> </a> 
 <a href="https://twitter.com/dasith_vidanage"><img src="https://img.shields.io/twitter/follow/dasith_vidanage?style=social"> </a> 
