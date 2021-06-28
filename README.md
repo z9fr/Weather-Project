@@ -17,7 +17,7 @@
 
   <p align="center">Weather Application created using OpenWeather API 
     <br />
-    <a href="https://github.com/d4az/School-Management-System"><strong>Read Me »</strong></a>
+    <a href="https://dasith.works/weather-project/"><strong>Read More »</strong></a>
     <br />
     <br />
     <a href="https://www.youtube.com/watch?v=EOy39kwQE5A">View Demo</a>
@@ -53,7 +53,7 @@ Also, this software offers you to login options, sign up forget password options
 
 ### Installation
 
-You can find the setup files   <a href="https://github.com/dasithsv/Weather-Project/releases/tag/1.0"> Here</a>if you like to download the sln files ( source code of this project ) <a href="https://d4az.github.io/images/schoolmanagementsystem/School%20Management%20System.zip"> download here  </a>
+You can find the setup files   <a href="https://github.com/dasithsv/Weather-Project/releases/"> Here</a>if you like to download the sln files ( source code of this project ) <a href="https://github.com/dasithsv/Weather-Project/releases/"> download here  </a>
 <br> 
 If you also need access or source codes of my login api please contact me. at dasithsv@gmail.com
 
@@ -62,17 +62,17 @@ If you also need access or source codes of my login api please contact me. at da
 ### Website
 
 <ul> 
-  <li> dasith.works/weather-project <a href="https://d4az.github.io/">Website</a> </li>
+  <li> dasith.works/weather-project <a href="https://dasith.works/">Website</a> </li>
 </ul>
 
 ### Roadmap
 
-See the [open issues](https://github.com/dasithsv/Weather-Project//issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/dasithsv/Weather-Project/issues) for a list of proposed features (and known issues).
 
 ### Contact
 
-Dasith Vidanage - [@dasith_vidanage](https://twitter.com/dasith_vidanage) - dasithvidanage000@gmail.com
-Project Link: [https://github.com/dasithsv/Weather-Project/](/d4az/PortScanner)
+Dasith Vidanage - [@dasith_vidanage](https://twitter.com/dasith_vidanage) - dasithsv@gmail.com
+Project Link: [https://dasith.works/weather-project/](Weather-Projec)
 
 
 ### License
