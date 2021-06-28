@@ -7,7 +7,6 @@
 <a href="https://instagram.com/wakeupdaz/"> <img src="https://img.shields.io/badge/-wakeupdaaz-%238a3ab9?style=social&logo=instagram"> </a>
 </cemter>
 
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
