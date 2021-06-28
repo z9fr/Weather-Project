@@ -51,6 +51,18 @@ In case you need to setup it your own please check for sourcecode files at the r
   <li> Guna UI2   </li>
 </ul>
 
+### Featurs 
+
+<ul> 
+  <li> Real Time weather </li>
+  <li> SecreLogin  </li>
+  <li> Passwords hashing </li>
+  <li> encrypted traffic </li>
+  <li> Email Confirmations  </li>
+  <li> Widgets</li> 
+</ul>
+
+
 ### Installation
 
 You can find the setup files   <a href="https://github.com/dasithsv/Weather-Project/releases/"> Here</a>if you like to download the sln files ( source code of this project ) <a href="https://github.com/dasithsv/Weather-Project/releases/"> download here  </a>
