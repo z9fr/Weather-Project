@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2C529629-597D-46F6-8F8F-3F54768C8B26}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>weatherapp</RootNamespace>
+    <AssemblyName>Weather Project</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Dasith Vidanage\Desktop\Weather Project\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <SupportUrl>https://dasith.works/</SupportUrl>
+    <ErrorReportUrl>https://dasith.works/</ErrorReportUrl>
+    <ProductName>weatherproject</ProductName>
+    <PublisherName>dasith vidanage</PublisherName>
+    <SuiteName>dasith</SuiteName>
+    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationVersion>2.2.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>912A5B6C5154F616BBFC58A947950D4C53704917</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>weatherapp_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Papirus-Team-Papirus-Apps-Weather.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\..\Documents\CollageManagementSystem\packages\Guna.UI2.WinForms.2.0.1.4\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dashboard.Designer.cs">
+      <DependentUpon>dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="resetpassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="resetpassword.Designer.cs">
+      <DependentUpon>resetpassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="signup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="signup.Designer.cs">
+      <DependentUpon>signup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="weatherForcast.cs" />
+    <Compile Include="weatherInfo.cs" />
+    <Compile Include="widget.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="widget.Designer.cs">
+      <DependentUpon>widget.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="dashboard.resx">
+      <DependentUpon>dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="resetpassword.resx">
+      <DependentUpon>resetpassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="signup.resx">
+      <DependentUpon>signup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="widget.resx">
+      <DependentUpon>widget.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="weatherapp_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="LiveCharts.WinForms">
+      <Version>0.9.7.1</Version>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>13.0.1</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paul-okrema-7W5YjGQdYTY-unsplash.jpg" />
+    <None Include="Resources\dreamling-aura-VSdXJBOAxlU-unsplash.jpg" />
+    <None Include="Resources\icons8-search-512.png" />
+    <None Include="Resources\paul-okrema-7W5YjGQdYTY-unsplash1.jpg" />
+    <None Include="Resources\oy-boy-xOiPABHHccc-unsplash.jpg" />
+    <None Include="Resources\1200px-User_icon-cp.svg.png" />
+    <None Include="Resources\businessman-officeworker-user-icon-with-png-and-vector-format-133444.jpg" />
+    <None Include="Resources\oy-boy-xOiPABHHccc-unsplash1.jpg" />
+    <None Include="Resources\eilis-garvey-AnDE3Y3D7Xk-unsplash.jpg" />
+    <Content Include="Papirus-Team-Papirus-Apps-Weather.ico" />
+    <Content Include="Resources\weatherIcons\day\113.png" />
+    <Content Include="Resources\weatherIcons\day\116.png" />
+    <Content Include="Resources\weatherIcons\day\119.png" />
+    <Content Include="Resources\weatherIcons\day\122.png" />
+    <Content Include="Resources\weatherIcons\day\143.png" />
+    <Content Include="Resources\weatherIcons\day\176.png" />
+    <Content Include="Resources\weatherIcons\day\179.png" />
+    <Content Include="Resources\weatherIcons\day\182.png" />
+    <Content Include="Resources\weatherIcons\day\185.png" />
+    <Content Include="Resources\weatherIcons\day\200.png" />
+    <Content Include="Resources\weatherIcons\day\227.png" />
+    <Content Include="Resources\weatherIcons\day\230.png" />
+    <Content Include="Resources\weatherIcons\day\248.png" />
+    <Content Include="Resources\weatherIcons\day\260.png" />
+    <Content Include="Resources\weatherIcons\day\263.png" />
+    <Content Include="Resources\weatherIcons\day\266.png" />
+    <Content Include="Resources\weatherIcons\day\281.png" />
+    <Content Include="Resources\weatherIcons\day\284.png" />
+    <Content Include="Resources\weatherIcons\day\293.png" />
+    <Content Include="Resources\weatherIcons\day\296.png" />
+    <Content Include="Resources\weatherIcons\day\299.png" />
+    <Content Include="Resources\weatherIcons\day\302.png" />
+    <Content Include="Resources\weatherIcons\day\305.png" />
+    <Content Include="Resources\weatherIcons\day\308.png" />
+    <Content Include="Resources\weatherIcons\day\311.png" />
+    <Content Include="Resources\weatherIcons\day\314.png" />
+    <Content Include="Resources\weatherIcons\day\317.png" />
+    <Content Include="Resources\weatherIcons\day\320.png" />
+    <Content Include="Resources\weatherIcons\day\323.png" />
+    <Content Include="Resources\weatherIcons\day\326.png" />
+    <Content Include="Resources\weatherIcons\day\329.png" />
+    <Content Include="Resources\weatherIcons\day\332.png" />
+    <Content Include="Resources\weatherIcons\day\335.png" />
+    <Content Include="Resources\weatherIcons\day\338.png" />
+    <Content Include="Resources\weatherIcons\day\350.png" />
+    <Content Include="Resources\weatherIcons\day\353.png" />
+    <Content Include="Resources\weatherIcons\day\356.png" />
+    <Content Include="Resources\weatherIcons\day\359.png" />
+    <Content Include="Resources\weatherIcons\day\362.png" />
+    <Content Include="Resources\weatherIcons\day\365.png" />
+    <Content Include="Resources\weatherIcons\day\368.png" />
+    <Content Include="Resources\weatherIcons\day\371.png" />
+    <Content Include="Resources\weatherIcons\day\374.png" />
+    <Content Include="Resources\weatherIcons\day\377.png" />
+    <Content Include="Resources\weatherIcons\day\386.png" />
+    <Content Include="Resources\weatherIcons\day\389.png" />
+    <Content Include="Resources\weatherIcons\day\392.png" />
+    <Content Include="Resources\weatherIcons\day\395.png" />
+    <Content Include="Resources\weatherIcons\night\113.png" />
+    <Content Include="Resources\weatherIcons\night\116.png" />
+    <Content Include="Resources\weatherIcons\night\119.png" />
+    <Content Include="Resources\weatherIcons\night\122.png" />
+    <Content Include="Resources\weatherIcons\night\143.png" />
+    <Content Include="Resources\weatherIcons\night\176.png" />
+    <Content Include="Resources\weatherIcons\night\179.png" />
+    <Content Include="Resources\weatherIcons\night\182.png" />
+    <Content Include="Resources\weatherIcons\night\185.png" />
+    <Content Include="Resources\weatherIcons\night\200.png" />
+    <Content Include="Resources\weatherIcons\night\227.png" />
+    <Content Include="Resources\weatherIcons\night\230.png" />
+    <Content Include="Resources\weatherIcons\night\248.png" />
+    <Content Include="Resources\weatherIcons\night\260.png" />
+    <Content Include="Resources\weatherIcons\night\263.png" />
+    <Content Include="Resources\weatherIcons\night\266.png" />
+    <Content Include="Resources\weatherIcons\night\281.png" />
+    <Content Include="Resources\weatherIcons\night\284.png" />
+    <Content Include="Resources\weatherIcons\night\293.png" />
+    <Content Include="Resources\weatherIcons\night\296.png" />
+    <Content Include="Resources\weatherIcons\night\299.png" />
+    <Content Include="Resources\weatherIcons\night\302.png" />
+    <Content Include="Resources\weatherIcons\night\305.png" />
+    <Content Include="Resources\weatherIcons\night\308.png" />
+    <Content Include="Resources\weatherIcons\night\311.png" />
+    <Content Include="Resources\weatherIcons\night\314.png" />
+    <Content Include="Resources\weatherIcons\night\317.png" />
+    <Content Include="Resources\weatherIcons\night\320.png" />
+    <Content Include="Resources\weatherIcons\night\323.png" />
+    <Content Include="Resources\weatherIcons\night\326.png" />
+    <Content Include="Resources\weatherIcons\night\329.png" />
+    <Content Include="Resources\weatherIcons\night\332.png" />
+    <Content Include="Resources\weatherIcons\night\335.png" />
+    <Content Include="Resources\weatherIcons\night\338.png" />
+    <Content Include="Resources\weatherIcons\night\350.png" />
+    <Content Include="Resources\weatherIcons\night\353.png" />
+    <Content Include="Resources\weatherIcons\night\356.png" />
+    <Content Include="Resources\weatherIcons\night\359.png" />
+    <Content Include="Resources\weatherIcons\night\362.png" />
+    <Content Include="Resources\weatherIcons\night\365.png" />
+    <Content Include="Resources\weatherIcons\night\368.png" />
+    <Content Include="Resources\weatherIcons\night\371.png" />
+    <Content Include="Resources\weatherIcons\night\374.png" />
+    <Content Include="Resources\weatherIcons\night\377.png" />
+    <Content Include="Resources\weatherIcons\night\386.png" />
+    <Content Include="Resources\weatherIcons\night\389.png" />
+    <Content Include="Resources\weatherIcons\night\392.png" />
+    <Content Include="Resources\weatherIcons\night\395.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
