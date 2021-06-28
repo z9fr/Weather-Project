@@ -31,12 +31,8 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project 
 
 ![screenshot](https://dasith.works/wp-content/uploads/2021/06/wether-proj.png)
-
-
-This is a weather application created using Open Weather API 
 
 <!-- GETTING STARTED -->
 ## About the Application
