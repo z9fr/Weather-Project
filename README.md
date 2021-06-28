@@ -8,7 +8,6 @@
 </cemter>
 
 
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -17,7 +16,7 @@
   <h3 align="center">School Management System</h3>
 
   <p align="center">
-  This is Open Source School Management System Using C#
+  Weather Project Using C#
     <br />
     <a href="https://github.com/d4az/School-Management-System"><strong>Read Me »</strong></a>
     <br />
@@ -35,7 +34,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project 
 
-![screenshot](https://github.com/d4az/School-Management-System/blob/main/demo/one.png)
+![screenshot](https://dasith.works/wp-content/uploads/2021/06/wether-proj.png)
 
 
 This is a weather application created using Open Weather API 
