@@ -1,0 +1,1016 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Weather Project.exe" version="2.2.0.4" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Papirus-Team-Papirus-Apps-Weather.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Weather Project" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Weather Project.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI2.dll" size="1911736">
+      <assemblyIdentity name="Guna.UI2" version="2.0.1.4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>q51qs/eZdM0bxSFJ2R+2p9IQsKmoXHeNv1kbkI+kpYw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LiveCharts.dll" size="152064">
+      <assemblyIdentity name="LiveCharts" version="0.9.7.0" publicKeyToken="0BC1F845D1EBB8DF" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>n8+Jg3tg9pwcUB5M+k0oYIh6/QuPMlgDNn55Wk47yco=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LiveCharts.WinForms.dll" size="19456">
+      <assemblyIdentity name="LiveCharts.WinForms" version="0.9.7.1" publicKeyToken="0BC1F845D1EBB8DF" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>pbYcFyYwTmty4JoPNd2/UviadaTijm7QmMjR32CBtK0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LiveCharts.Wpf.dll" size="217600">
+      <assemblyIdentity name="LiveCharts.Wpf" version="0.9.7.0" publicKeyToken="0BC1F845D1EBB8DF" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>G9uxtcGlBlPlwmFh6bfAPtxRhyGm4Q6hgKhASdlnEGs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="701992">
+      <assemblyIdentity name="Newtonsoft.Json" version="13.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tiSUnfiw46YVP9+3MKfG9JkLZZLuDZIuF4hDPSdmEPM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Weather Project.exe" size="16240672">
+      <assemblyIdentity name="Weather Project" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Ad0x2KHPy9CNYGC1eyYUjItMfaU5Qmpuxqc5MHgMOYw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Papirus-Team-Papirus-Apps-Weather.ico" size="197078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>umuchZh0ewQ/ztLVkqE91Zd3XlOTHIBTxCTRUdl7fe4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\113.png" size="2126">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xBqxg1e8JS4heCVbSKlUu4HfRXahLh6Lgz5WbUXC0iY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\116.png" size="2597">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SUG+/UAkAp4MKA1VK10EHKutLs8gI5KM+2gvYAbmZ4Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\119.png" size="1984">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6GWUZZMRCcSS37ugI1UsXCD2VI6w442goSni2oFI4TE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\122.png" size="2058">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xh6twhdUE1Ba3x7PapehbYLe8x27rChvyZyHrkPMLHg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\143.png" size="2106">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dbmNRj/wujhJvnau4FocfTeKMPknRBXxHvO8jjdXDD8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\176.png" size="2729">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TmYLPjzwIvDet5rMtJDkQ5P2C5l18+vzpULURQGzOcM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\179.png" size="2844">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Q+9iZABAJOdDSYmaDu8iSo/hzTh7Tkko4B9ceSWS8EU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\182.png" size="2901">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oHGNOJ6huMb+eKA0PGo03wh0pQYj9bBngagSJTP+/4w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\185.png" size="2172">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>r1F7LqLoJZjNMx0CwQnT4OJR9siqJ14vJTP1nUoiz1A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\200.png" size="2889">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4oCnxmB/dVj9P/GSdmvikHuIzBXFOGR2RfpldhK3eas=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\227.png" size="2306">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LwED83A92CcP8gUtb322P4Nf72RYbiEWiZIWmy5UW1Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\230.png" size="2327">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VApMCWWIGwKyhmlYCYpZZi+2qTSJn4xZA0LfOPPN6r0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\248.png" size="2121">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HXKp5o17qBevUTIjyJ2F9K1b9iiD3T3y6mB4M6ZAIAA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\260.png" size="2253">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JLPmeZ3j+UWlVk9N6XBv46LDtzMaUI3WCrQv47MtG2w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\263.png" size="2109">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6SJQ22v/OOSmSriqK8C8TTagFQvlHA/k4T2axgcBRVI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\266.png" size="2109">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6SJQ22v/OOSmSriqK8C8TTagFQvlHA/k4T2axgcBRVI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\281.png" size="2172">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>r1F7LqLoJZjNMx0CwQnT4OJR9siqJ14vJTP1nUoiz1A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\284.png" size="2155">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pJIntnRjCRn+5jIbac10c0bb2zmZKAcQS3v5/HtIFY0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\293.png" size="2729">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TmYLPjzwIvDet5rMtJDkQ5P2C5l18+vzpULURQGzOcM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\296.png" size="2134">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QDiox5cx18xQoQxzP1DlFdOZ1IXT4v8wT+YieEbSoOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\299.png" size="2729">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TmYLPjzwIvDet5rMtJDkQ5P2C5l18+vzpULURQGzOcM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\302.png" size="2134">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QDiox5cx18xQoQxzP1DlFdOZ1IXT4v8wT+YieEbSoOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\305.png" size="2723">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XOc1Va1JzuEaZFjE0/v02eq8JlqPHtqqyh5csEnz9H4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\308.png" size="2110">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>V21T6lQ2ED/ZQwSWHnT6MK/55Qsmufx7+iTPXIySXh0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\311.png" size="2232">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xuVKVK6RkuPEJTR65RTA8qUlphZlxuQk/7sD28cFrYY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\314.png" size="2232">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xuVKVK6RkuPEJTR65RTA8qUlphZlxuQk/7sD28cFrYY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\317.png" size="2305">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CCVhicyv0wqO0EVJqumBurxHR3Yc5AWzd45SHDU8u6w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\320.png" size="2305">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CCVhicyv0wqO0EVJqumBurxHR3Yc5AWzd45SHDU8u6w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\323.png" size="2844">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Q+9iZABAJOdDSYmaDu8iSo/hzTh7Tkko4B9ceSWS8EU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\326.png" size="2263">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mH6w0juAfVvSMLUaMzbkynMSHg2IPxn+FRQa/gcS+Lk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\329.png" size="2844">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Q+9iZABAJOdDSYmaDu8iSo/hzTh7Tkko4B9ceSWS8EU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\332.png" size="2263">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mH6w0juAfVvSMLUaMzbkynMSHg2IPxn+FRQa/gcS+Lk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\335.png" size="2858">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oyokU1fmKbE/G45Akb+ZzjvTHN4pJHi+CYBCvH5tJEw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\338.png" size="2263">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7QvfsjJrCuLHb+g3hfkkTZFRYMTE+y8dZOdy0wiehwA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\350.png" size="2155">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6wmUxHtPluisvpuPADCi0PGNGJ8YIZA/HKC/6JHNoSg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\353.png" size="2729">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TmYLPjzwIvDet5rMtJDkQ5P2C5l18+vzpULURQGzOcM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\356.png" size="2723">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XOc1Va1JzuEaZFjE0/v02eq8JlqPHtqqyh5csEnz9H4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\359.png" size="2709">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>a/SXQLeVrj8b2hk4eMOsas/+1QA41iTHmMKYl39eSnI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\362.png" size="2901">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oHGNOJ6huMb+eKA0PGo03wh0pQYj9bBngagSJTP+/4w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\365.png" size="2944">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CjBujZFN8Tz8XWxIxSR/77ug2fwwjTwHAYlhQ7UmyGo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\368.png" size="2844">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Q+9iZABAJOdDSYmaDu8iSo/hzTh7Tkko4B9ceSWS8EU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\371.png" size="2858">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oyokU1fmKbE/G45Akb+ZzjvTHN4pJHi+CYBCvH5tJEw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\374.png" size="2758">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5d55aBOMNGKk1nGQLuHz8fa7LiWAJ7/6cOXBugvCuUI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\377.png" size="2775">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zPCSt8rfYNxZYejdjrnSZgO9JgIcOG6lEmNdZPgqLHc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\386.png" size="2889">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4oCnxmB/dVj9P/GSdmvikHuIzBXFOGR2RfpldhK3eas=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\389.png" size="2271">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>i736wi38/K7i63ChcbevdN6ec9aZWkbyildkKy98N5w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\392.png" size="3077">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>n8GIvsCaWlgH3akFKjURLMpcI3g6NKGNANbho4o3/0g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\day\395.png" size="2451">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rsWZtZIzzWNkjvtxp4nALOPkGZfxkO/33kkLTyvHv98=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\113.png" size="1613">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EJ52EhFiRukf6P/LG6veRCmJlze4wEXoayBlHsYtRmU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\116.png" size="2524">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xqBDCSf/Cc4f0VJjKfx48FxiiWBe8+d0gGJcTJtYR6c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\119.png" size="2451">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jkQBolJIVQlvRJ91GXwYzzCVHdgtGDkTmx4v79inH6s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\122.png" size="2058">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3HPwMxgcFg4Z6efAGbfWQ/D9G7OGCKB7HGHoZsJvN8A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\143.png" size="2106">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>M+PSSlx6xFh3bGR32CnZe+9RNjjNiHGMqGpobn0Q84o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\176.png" size="2643">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ws0jw3zeoIIIs55yGIF8ROipHIYhdKK93KQDHtahqMg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\179.png" size="2749">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>E+8B+GDc6pS2dcH9xkiNuSJm5zHf1Z2nbCO8CDl1ngw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\182.png" size="2809">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lJZwuuqjxixaLPYckG0swV70xI/NT55APUJXXMsACn4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\185.png" size="2169">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qWzRfnjuWVFlq8XtUynsYgvLIyXlkZ569gL/gCTCpa8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\200.png" size="2797">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>d93j6HNTniO9IwS+I0W0ODOfwU/uhcmOGIK0P6zzD/8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\227.png" size="2306">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>b2VZuXoMUWe5R7fxkWRNKKfeg/iN4f8iipGnV/W3Yyo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\230.png" size="2327">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>65SwDpBZMGWX/fdoB5ZySUqi0mT8VtVFbaL3RiOibRM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\248.png" size="2128">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6wb6fpFrwEAwfVIIpenMnbSTlUsGHffZn5oHy9xh7vY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\260.png" size="2253">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oTq7WwLuem0pL+U9zzy5bJjjverba1zUU4+eTtf4Leg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\263.png" size="2119">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>p0gxyMGgJcVFkCKcfGdgbf3wPNluJcKTY09aU8DtWk0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\266.png" size="2119">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>p0gxyMGgJcVFkCKcfGdgbf3wPNluJcKTY09aU8DtWk0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\281.png" size="2169">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qWzRfnjuWVFlq8XtUynsYgvLIyXlkZ569gL/gCTCpa8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\284.png" size="2165">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3AKgjf/RJrJMfeLFCktdkIYutBYbYLoZknZ34td4Pt8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\293.png" size="2643">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ws0jw3zeoIIIs55yGIF8ROipHIYhdKK93KQDHtahqMg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\296.png" size="2134">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>14k+SM095AiQsdklKmvw/ollXCqGIEwqHA5hscS84eI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\299.png" size="2643">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ws0jw3zeoIIIs55yGIF8ROipHIYhdKK93KQDHtahqMg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\302.png" size="2134">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>14k+SM095AiQsdklKmvw/ollXCqGIEwqHA5hscS84eI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\305.png" size="2644">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Cpr7ug4XXZglnSamiw+by7DrJfqC73dS1RqP2lwU4lo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\308.png" size="2133">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>veMPNZhCnqpukeOc9hp5JffC+12VCy2MdIUj5wutDhs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\311.png" size="2232">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BT0qZUC2O9ETevOsu24JKDqAcwSHt96hxKn+XLPOf/U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\314.png" size="2232">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BT0qZUC2O9ETevOsu24JKDqAcwSHt96hxKn+XLPOf/U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\317.png" size="2305">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SvCfBjXmLRBa6/IOU+gUcuBd3Hqnx9kZcHBUktCyiJ8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\320.png" size="2305">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SvCfBjXmLRBa6/IOU+gUcuBd3Hqnx9kZcHBUktCyiJ8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\323.png" size="2749">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>E+8B+GDc6pS2dcH9xkiNuSJm5zHf1Z2nbCO8CDl1ngw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\326.png" size="2263">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DhSOIuGlc2ZlszjfWHsFcaxH/TirG1iB/F43Wvl6dzc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\329.png" size="2749">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>E+8B+GDc6pS2dcH9xkiNuSJm5zHf1Z2nbCO8CDl1ngw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\332.png" size="2263">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DhSOIuGlc2ZlszjfWHsFcaxH/TirG1iB/F43Wvl6dzc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\335.png" size="2749">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>E+8B+GDc6pS2dcH9xkiNuSJm5zHf1Z2nbCO8CDl1ngw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\338.png" size="2277">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2l7zxdgVMLCornhd22LWagfv8pMQmIjs/qJOrQxuC2w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\350.png" size="2155">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R60mQLa/Q2SziDHDpSpiPoOO5+maqo4iIYsYFa3p3ns=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\353.png" size="2643">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ws0jw3zeoIIIs55yGIF8ROipHIYhdKK93KQDHtahqMg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\356.png" size="2644">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Cpr7ug4XXZglnSamiw+by7DrJfqC73dS1RqP2lwU4lo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\359.png" size="2617">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7e9hNUr/Cj1ivUlpWXfDvjMRiLyYxiiArWkUqMhtcVo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\362.png" size="2809">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lJZwuuqjxixaLPYckG0swV70xI/NT55APUJXXMsACn4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\365.png" size="2856">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>u8rHMybK+AvX45xJFy/N/ktugPewFQC6EMoRW3DT+No=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\368.png" size="2749">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>E+8B+GDc6pS2dcH9xkiNuSJm5zHf1Z2nbCO8CDl1ngw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\371.png" size="2771">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>d7+f3LgZiNsfbysPhwHq4hMXD+P+0yNlvkLViJ0SoH8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\374.png" size="2665">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IK1h7NDnwyPSbG2CK6su2q2iFl2eQsI5JJ54HLZDQuE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\377.png" size="2683">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JJ0rEkGhHv65m96sGBcpOJ1HoHl04vZr+lxwDLN3qy0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\386.png" size="2797">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>d93j6HNTniO9IwS+I0W0ODOfwU/uhcmOGIK0P6zzD/8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\389.png" size="2271">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BXEjeBKX+YYPy/XwePKtb+eIYJybScnXWn8WaPdWbr0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\392.png" size="2974">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>b/PxdFACSYStgzl9/DYELX4PhvIokqxsC6t6kjEnUB0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\weatherIcons\night\395.png" size="2451">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rsWZtZIzzWNkjvtxp4nALOPkGZfxkO/33kkLTyvHv98=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Weather Project.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+</asmv1:assembly>
