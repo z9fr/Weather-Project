@@ -13,7 +13,7 @@
 <p align="center">
 
 
-  <h3 align="center">School Management System</h3>
+  <h3 align="center">Weather Project Using C#</h3>
 
   <p align="center">
   Weather Project Using C#
@@ -23,9 +23,9 @@
     <br />
     <a href="https://www.youtube.com/watch?v=EOy39kwQE5A">View Demo</a>
     ·
-    <a href="https://github.com/d4az/School-Management-System/issues">Report Bug</a>
+    <a href="https://github.com/dasithsv/Weather-Project/issues">Report Bug</a>
     ·
-    <a href="https://github.com/d4az/School-Management-System/pulls">Add a Pull Request </a>
+    <a href="https://github.com/dasithsv/Weather-Project/pulls">Add a Pull Request </a>
   </p>
 </p>
 
@@ -58,7 +58,7 @@ Also, this software offers you to login options, sign up forget password options
 
 ### Installation
 
-You can find the setup files   <a href="https://github.com/d4az/School-Management-System/releases/tag/1.0"> Here</a>if you like to download the sln files ( source code of this project ) <a href="https://d4az.github.io/images/schoolmanagementsystem/School%20Management%20System.zip"> download here  </a>
+You can find the setup files   <a href="https://github.com/dasithsv/Weather-Project/releases/tag/1.0"> Here</a>if you like to download the sln files ( source code of this project ) <a href="https://d4az.github.io/images/schoolmanagementsystem/School%20Management%20System.zip"> download here  </a>
 <br> 
 If you also need access or source codes of my login api please contact me. at dasithsv@gmail.com
 
@@ -72,17 +72,17 @@ If you also need access or source codes of my login api please contact me. at da
 
 ### Roadmap
 
-See the [open issues](https://github.com/d4az/School-Management-System//issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/dasithsv/Weather-Project//issues) for a list of proposed features (and known issues).
 
 ### Contact
 
 Dasith Vidanage - [@dasith_vidanage](https://twitter.com/dasith_vidanage) - dasithvidanage000@gmail.com
-Project Link: [https://github.com/d4az/School-Management-System/](/d4az/PortScanner)
+Project Link: [https://github.com/dasithsv/Weather-Project/](/d4az/PortScanner)
 
 
 ### License
 
-This project is licensed under the MIT License - see the <a href="https://github.com/d4az/School-Management-System/blob/main/LICENSE"> LICENSE</a> file for details
+This project is licensed under the MIT License - see the <a href="https://github.com/dasithsv/Weather-Project/blob/main/LICENSE"> LICENSE</a> file for details
 
 
 
