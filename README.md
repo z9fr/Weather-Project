@@ -20,7 +20,7 @@
     <a href="https://dasith.works/weather-project/"><strong>Read More »</strong></a>
     <br />
     <br />
-    <a href="https://www.youtube.com/watch?v=EOy39kwQE5A">View Demo</a>
+    <a href="https://youtu.be/soCDNsuVzsw">View Demo</a>
     ·
     <a href="https://github.com/dasithsv/Weather-Project/issues">Report Bug</a>
     ·
