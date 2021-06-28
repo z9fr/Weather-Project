@@ -39,6 +39,7 @@
 This is a weather application created using the help of open weather API. This software offers you to display the current weather, weekly weather and this software will show you the humility and all the general weather reports. 
 Also, this software offers you to login options, sign up forget password options. These tasks are done by a Login API and the users who are creating the account / changing the password will also get informed when they do so. 
 
+In case you need to setup it your own please check for sourcecode files at the release. also if you need to setup the login api please contact me I will provide the related details. 
 
 ### Technologies Used
 
