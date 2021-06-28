@@ -76,7 +76,7 @@ Project Link: [https://dasith.works/weather-project/](Weather-Projec)
 
 ### License
 
-This project is licensed under the MIT License - see the <a href="https://github.com/dasithsv/Weather-Project/blob/main/LICENSE"> LICENSE</a> file for details
+This project is licensed under the MIT License - see the <a href="https://github.com/dasithsv/Weather-Project/"> LICENSE</a> file for details
 
 
 
