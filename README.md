@@ -51,7 +51,7 @@ In case you need to setup it your own please check for sourcecode files at the r
   <li> Guna UI2   </li>
 </ul>
 
-### Feature 
+### Features
 
 <ul> 
   <li> Real Time weather </li>
