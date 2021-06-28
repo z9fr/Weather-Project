@@ -15,8 +15,7 @@
 
   <h3 align="center">Weather Project Using C#</h3>
 
-  <p align="center">
-  Weather Project Using C#
+  <p align="center">Weather Application created using OpenWeather API 
     <br />
     <a href="https://github.com/d4az/School-Management-System"><strong>Read Me »</strong></a>
     <br />
