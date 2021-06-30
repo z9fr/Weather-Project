@@ -27,7 +27,6 @@ namespace weatherapp
 
 
             //set Prompt 
-
             message = "Please Enter a Location";
             title = "Location for Widget";
 
