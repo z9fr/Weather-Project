@@ -13,6 +13,7 @@ using Newtonsoft.Json;
 
 namespace weatherapp
 {
+    
     public partial class widget : Form
     {
         public string city;
