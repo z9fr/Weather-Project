@@ -49,8 +49,6 @@ namespace weatherapp
         public double wind_gust;
         public double feels_like;
         public string theSuccesName;
-
-
         public dashboard(string thLoginName)
         {
             theSuccesName = thLoginName;
