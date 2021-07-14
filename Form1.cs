@@ -10,9 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Newtonsoft.Json;
 
-/* 
-* 
-*/
+/* */
 
 namespace weatherapp
 {
