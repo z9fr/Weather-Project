@@ -11,7 +11,6 @@ using System.Windows.Forms;
 using Newtonsoft.Json;
 
 /* */
-
 namespace weatherapp
 {
     public partial class Form1 : Form
