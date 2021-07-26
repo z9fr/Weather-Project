@@ -17,6 +17,7 @@ namespace weatherapp
 {
     public partial class dashboard : Form
     {
+    
         const string APPID = "0e0810d7d0c0468cce11d4ac3b1c992e";
 
         public double mintemp1;
