@@ -19,7 +19,6 @@ namespace weatherapp
     {
     
         const string APPID = "0e0810d7d0c0468cce11d4ac3b1c992e";
-
         public double mintemp1;
         public double maxtemp1;
         public double date1;
