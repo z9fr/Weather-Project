@@ -84,7 +84,7 @@ See the [open issues](https://github.com/dasithsv/Weather-Project/issues) for a 
 
 ### Contact
 
-Dasith Vidanage - [@dasith_vidanage](https://twitter.com/dasith_vidanage) - dasithsv@gmail.com
+Dasith Vidanage - [@dasithsv](https://twitter.com/dasithsv) - dasithsv@gmail.com
 Project Link: [https://dasith.works/weather-project/](Weather-Projec)
 
 
